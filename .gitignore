@@ -1,6 +1,10 @@
 lib/**
+log/**
 *~
 *.swp
 *.bak
 *.orig
+*.mw
+*.mws
+*.log
 

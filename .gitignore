@@ -1,0 +1,6 @@
+lib/**
+*~
+*.swp
+*.bak
+*.orig
+

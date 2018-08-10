@@ -1,6 +1,6 @@
 #################################################################################
 #
-# Filename: MyStudyTools.mpl
+# Filename: modMyStudyTools.mpl
 # 
 # Copyright (c) 2018 Temur 
 # 
@@ -53,7 +53,7 @@ end module; # My Study Tools
 
 #################################################################################
 #
-# End of File: MyStudyTools.mpl
+# End of File: modMyStudyTools.mpl
 #
 #################################################################################
 

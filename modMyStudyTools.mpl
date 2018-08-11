@@ -28,7 +28,14 @@
 MyStudyTools := module()
 description "My Study Tools";
 option package;
-export no_eval;
+export no_eval, cis;
+
+
+cis := proc (x)
+description "the letters \"cis\" stand for \"Cosine I Sine.\": cis(x) = cos(x) + I*sin(x)";
+options operator, arrow;
+cos(x)+I*sin(x);
+end proc;  # cis
 
 no_eval := proc(expr::uneval)
 description "Display expression (quotient for example) vithout evaluation...";

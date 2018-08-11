@@ -26,7 +26,10 @@
 ##################################################################################    
 
 
-#NOTE: "maple" executable should be available in the path...
+MAPLE_BIN_DIR=/opt/maple2017/bin  # NOTE: update it to match your Maple directory
+
+export PATH=${PATH}:${MAPLE_BIN_DIR};
+
 mkdir -p ./log;
 maple -q INSTALLER.mpl 2>&1 1> "log/install_`date +%Y-%m-%d_%X`.log";
 
